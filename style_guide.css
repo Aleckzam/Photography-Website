@@ -1,0 +1,89 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover {
+  color:gainsboro;
+}
+.menu-container {
+  color: whitesmoke;
+  background-color: #202020;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.menu {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.header-container {
+  color:whitesmoke;
+  background-color: rgb(93, 109, 91);
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  margin: 50px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  font-size: 200px;
+}
+.logo-description {
+  font-size: 50px;
+}
+
+.projects-title{
+  display:flex;
+  justify-content: center;
+  color: #202020;
+  font-size: 100px;
+}
+
+hr{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2px;
+  background-color:#202020
+}
+
+.poster-container {
+  display: flex;
+  justify-content: space-between;
+}
+  
+.poster {
+  margin: 50px;
+  background-color: #4e6e5e;
+  flex: 1;
+  display: block;
+}
+
+.header-video {
+  position: relative;
+  width: 100%;
+}
+.video-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  color:gainsboro;
+  display: flex;
+  width: 100%;
+}
+
